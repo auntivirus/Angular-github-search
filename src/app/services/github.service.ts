@@ -12,7 +12,7 @@ export class GithubService {
   getProfile(username: string) {
     return this.http.get(`http://api.github.com/users/${username}`);
   };
-
+  //github Repositories
   getRepos(username: string) {
     return this.http.get(`https://api.github.com/users/${username}/repos`);
   }

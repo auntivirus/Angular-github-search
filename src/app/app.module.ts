@@ -10,7 +10,10 @@ import { GithubProfileCardComponent } from './github-profile-card/github-profile
 import { GithubProfileDataComponent } from './github-profile-data/github-profile-data.component';
 import { GithubReposComponent } from './github-repos/github-repos.component';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import {HttpClientModule} from '@angular/common/http'
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
+    MatPaginatorModule,
+    MatTableModule,
+    NgxSpinnerModule,
     HttpClientModule,
   ],
   providers: [],
