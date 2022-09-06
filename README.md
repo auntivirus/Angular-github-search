@@ -31,3 +31,6 @@ Do install @angular/material package before running it in the localhost
 ### Github API used
 1. Github User - "https://api.github.com/users/{username}"
 2. Github User Repo - "https://api.github.com/users/{username}/repos"
+
+
+# This note should reflect only in 'test' branch and not in 'main' branch.
